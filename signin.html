@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet shop Sign in</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"href="style1.css">
+	<link rel="stylesheet"href=file:///C:/Users/LENOVO/Desktop/bootstrap-5.0.1-dist/css/bootstrap.min.css.map">
+	<script type="text/javascript" src="file:///C:/Users/LENOVO/Desktop/bootstrap-5.0.1-dist/js/bootstrap.min.js.map"></script>
+ <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+</style>
+
+    <!-- Nishith kumar , 1602-18-737-301, Assignment -2 , 30/05/2021-->
+    <!-- Shirisha , 1602-18-737-045, Assignment -2 , 30/05/2021-->
+</head>
+<body>
+
+<h2>Modal Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+	<div class="container">
+	<div class="row">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+	<hr>   
+	<div class="row">
+	<div class="container" style="background-color:#f1f1f1">
+	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

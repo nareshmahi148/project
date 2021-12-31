@@ -1,0 +1,127 @@
+body {
+    background-color: lightblue;
+}
+header {
+    margin: 0 5%;
+}
+nav {
+    font-size: 1.5em;
+    display: flex;
+}
+nav ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav h1 {
+    margin-top: 0%;
+    margin-bottom: 1%;
+    justify-content: flex-start;
+}
+nav ul {
+    flex: 1;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+#info {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+section {
+    margin-left: 10% 20%;
+    display: inline;
+    justify-content: left;}
+.section-img {
+    margin: 15% 15%;
+    width: 500px;
+    border-radius: 50%;
+}
+#intro {
+    margin: 1%;
+    margin-left: 10%;
+    align-items: center;
+}
+section h1 {
+    font-size: 80px;
+    margin-bottom: -5%;
+    font-family: 'Roboto Slab', serif;}
+section h2 {
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+.circlebuttons {
+    height: 150px;
+    width: 150px;
+    border: none;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.circlebuttons:nth-child(1) {
+    background-color: #f01d4e;
+}
+.circlebuttons:nth-child(2) {
+    background-color: skyblue;
+}
+.circlebuttons:nth-child(3) {
+    background-color: yellowgreen;
+}
+#about-me-font {
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    background-color: #f01d4e;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+footer ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+footer ul {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.num {
+    display: block;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;}
+.social {
+    width: 25px;
+    background-color: #f01d4e;
+}
+.footer-img {
+    width: 50px;
+    margin-right: 20px;
+}
+
